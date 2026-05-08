@@ -1,0 +1,2431 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "account-overview-module;view-account-summary",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "View Account Summary",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1418410600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1537233600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 895560500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click accounts overview link",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 639297199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "account details should display",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48877999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 539859000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "account-overview-module;verify-balance",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify Balance",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 802712799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2063904900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2777060099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click accounts overview link",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1644819700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "account balance should display correctly",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 421746599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 487234700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "account-overview-module;click-account-number",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Click Account Number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 899840599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1505310799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1313868800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click accounts overview link",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651056000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click account number",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519033400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "transaction history should display",
+            "match": {
+              "location": "features\\step-definitions\\accountOverview.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66245500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 510769699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "account-overview-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Account Overview Module",
+    "tags": [],
+    "uri": "features\\accountOverview.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "parabank-api-testing;get-customer-account-details",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Get customer account details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 729078199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send API request to get account details",
+            "match": {
+              "location": "features\\step-definitions\\api.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 934459000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "API response should be successful",
+            "match": {
+              "location": "features\\step-definitions\\api.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1746500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361973500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "parabank-api-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "ParaBank API Testing",
+    "tags": [],
+    "uri": "features\\api.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bill-pay-module;successful-bill-payment",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful Bill Payment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 692067699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1338326099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 845765100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click bill pay link",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533513899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter valid bill payment details",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325640299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click send payment button",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80258900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "bill payment should be successful",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14572399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 503554100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bill-pay-module;empty-payee-name",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Empty Payee Name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 832924899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1443313799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 834536700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click bill pay link",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 652513500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I leave payee name empty",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344945000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click send payment button",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81282800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "bill pay validation message should display",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18833299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 484605799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bill-pay-module;invalid-account-number",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Invalid Account Number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 777723700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7886818700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 860355999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click bill pay link",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516115200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter invalid bill account number",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341194700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click send payment button",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64335099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "bill pay error message should display",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15889999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 490229500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bill-pay-module;empty-amount",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Empty Amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 735972900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2478633300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1795640099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click bill pay link",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883561499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I leave bill amount empty",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 312184300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click send payment button",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63512600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "bill pay validation message should display",
+            "match": {
+              "location": "features\\step-definitions\\billPay.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16731999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 443645000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bill-pay-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Bill Pay Module",
+    "tags": [],
+    "uri": "features\\billPay.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "fund-transfer-module;successful-fund-transfer",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful Fund Transfer",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 710053699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2101628099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 857771000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click transfer funds link",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 657547600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter valid transfer amount",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67395900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click transfer button",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314581799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "fund transfer should be successful",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11002399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 404948400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "fund-transfer-module;transfer-zero-amount",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Transfer Zero Amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 627673000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1302324300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837194100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click transfer funds link",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 704431600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter zero transfer amount",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49728200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click transfer button",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194284100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "transfer validation message should display",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12348500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 424208999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "fund-transfer-module;transfer-negative-amount",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Transfer Negative Amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 649451500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1871661700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861621400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click transfer funds link",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598405800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter negative transfer amount",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71746500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click transfer button",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305287100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "transfer error message should display",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11788800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 421703599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "fund-transfer-module;transfer-without-balance",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Transfer Without Balance",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 608398999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1326174400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896971799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click transfer funds link",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 855343399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I enter huge transfer amount",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75760999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click transfer button",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295135399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "insufficient balance message should display",
+            "match": {
+              "location": "features\\step-definitions\\fundTransfer.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14165200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 446897599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "fund-transfer-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Fund Transfer Module",
+    "tags": [],
+    "uri": "features\\fundTransfer.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "loan-request-module;valid-loan-request",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Valid Loan Request",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 685632899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1379032400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 882016099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click request loan link",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 715258300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter valid loan amount",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83333299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click apply loan button",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70079600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "loan request should be successful",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12311200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 438774400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "loan-request-module;empty-loan-amount",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Empty Loan Amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 696789099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1327894799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 824914099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click request loan link",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 685777600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I leave loan amount empty",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87699699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click apply loan button",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59154600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "loan validation message should display",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15134799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 492129499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "loan-request-module;negative-loan-amount",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Negative Loan Amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 643974000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2713533600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868014200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click request loan link",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568318100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter negative loan amount",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88905100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click apply loan button",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71503800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "loan error message should display",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12246599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 445004700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "loan-request-module;huge-loan-amount",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Huge Loan Amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 729507200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1501292799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 832447500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click request loan link",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601355000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I enter huge loan amount",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103381699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click apply loan button",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60415100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "proper loan validation should display",
+            "match": {
+              "location": "features\\step-definitions\\loanRequest.steps.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17337800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 434612999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "loan-request-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Loan Request Module",
+    "tags": [],
+    "uri": "features\\loanRequest.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "parabank-login-functionality;valid-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 808902999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5166400300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112881599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 769766900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should login successfully",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148791499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 426199999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login-functionality;invalid-password",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Invalid Password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 706254400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1695732499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter valid username and invalid password",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97778200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click the login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 739603100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Error message should display",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151011899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 427956599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login-functionality;empty-username",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Empty Username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 850062200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1354602499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I leave username empty and enter password",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79325800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 330419999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Login should fail",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137327100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 426258399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login-functionality;empty-password",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Empty Password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 623205499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2063168400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I enter username and leave password empty",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84966599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click the login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348811099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Login should fail",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56824499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 394006800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login-functionality;empty-fields",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Empty Fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 724036699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1711837599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I leave username and password empty",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2413199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click the login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436853199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Login should fail",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 421341799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 433539000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login-functionality;logout-functionality",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Logout Functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 792527900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1279180299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 851211500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I click logout button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1204574900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should logout successfully",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29340400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 411292799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "parabank-login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "ParaBank Login Functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration-module;successful-registration",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 658697400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2498649499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click register link",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405490799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill all valid registration details",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 419173399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click register button",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527756099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "account should be created successfully",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46032899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 498888800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration Module",
+    "tags": [],
+    "uri": "features\\register.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ui-validation;verify-logo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Logo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 724025099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1734886900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "application logo should display",
+            "match": {
+              "location": "features\\step-definitions\\ui.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62526400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 389880199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-validation;verify-navigation-links",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Navigation Links",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 595161800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5321911700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "all navigation links should display",
+            "match": {
+              "location": "features\\step-definitions\\ui.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65338599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 440342600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-validation;verify-page-title",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify Page Title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 754748500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1657237200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "correct page title should display",
+            "match": {
+              "location": "features\\step-definitions\\ui.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45251400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 403181600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ui-validation;verify-responsive-ui",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify Responsive UI",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 657626899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I open the ParaBank website",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1353885000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "UI should align properly",
+            "match": {
+              "location": "features\\step-definitions\\ui.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60232799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384056400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ui-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "UI Validation",
+    "tags": [],
+    "uri": "features\\ui.feature"
+  }
+]
