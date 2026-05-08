@@ -26,8 +26,12 @@ Before(async function () {
 
 After(async function () {
 
-  await page.close();
+  if (page) {
+    await page.close();
+  }
 
-  await browser.close();
+  if (browser) {
+    await browser.close();
+  }
 
 });
