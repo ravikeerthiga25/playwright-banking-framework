@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
+"scripts": {
   "test": "cucumber-js --format json:reports/json/cucumber-report.json",
   "test:headed": "cucumber-js --world-parameters '{\"headless\":false}'",
-  "report": "ts-node report.ts",
+  "report": "npx ts-node report.ts",
   "test:report": "npm test && npm run report",
   "allure:generate": "allure generate ./allure-results --clean",
   "allure:open": "allure open"
