@@ -1,3 +1,4 @@
+@ci
 Feature: ParaBank API Testing
 
   Scenario: Get customer account details
