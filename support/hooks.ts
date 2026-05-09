@@ -9,9 +9,8 @@ let page: Page;
 Before(async function () {
 
   browser = await chromium.launch({
-    headless: false
-  });
-
+  headless: true
+});
   page = await browser.newPage();
 
   // maximize window
