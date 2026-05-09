@@ -1,3 +1,4 @@
+@ui
 Feature: UI Validation
 
   Scenario: Verify Logo
